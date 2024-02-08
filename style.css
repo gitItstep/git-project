@@ -3,3 +3,22 @@ body {
     color: #fff;
     text-align: center;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
